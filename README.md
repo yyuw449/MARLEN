@@ -145,6 +145,7 @@ def reset_model(self):
 Reset variables
 ```bash
 def reset_world(self, world):
+        # 3 agents 3 landmarks
         if self.iter_num != 2:
             self.iter_num += 1
         else:
