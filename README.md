@@ -1,7 +1,7 @@
 # MARLEN: Multi-Agent Reinforcement Learning with Exogenous Non-stationarity
 
 ## Environment Setup
-Please refer [HARL](https://github.com/PKU-MARL/HARL), [A2PO](https://github.com/xihuai18/A2PO-ICLR2023), [MAZero](https://github.com/liuqh16/MAZero), [ELIGN](https://github.com/StanfordVL/alignment), [MARR](https://github.com/CNDOTA/ICML24-MARR/tree/main/marr-mpe) and [DPO](https://github.com/PKU-RL/DPO) for environmental setup.
+Please refer [HARL](https://github.com/PKU-MARL/HARL), [A2PO](https://github.com/xihuai18/A2PO-ICLR2023), [MAZero](https://github.com/liuqh16/MAZero), [Alignment](https://github.com/StanfordVL/alignment), [MARR](https://github.com/CNDOTA/ICML24-MARR/tree/main/marr-mpe) and [DPO](https://github.com/PKU-RL/DPO) for environmental setup.
 
 ---
 
@@ -59,7 +59,7 @@ python main.py --opr train_sync --case $env --env_name $scenerio --exp_name $exp
     --mcts_rho $mcts_rho --mcts_lambda $mcts_lambda 
 ```
 
-### ELIGN
+### Alignment
 ```bash
 # Training
 python map/train_multi_sacd.py --task simple_spread_in_NS_change_landmark_with_episode --num-good-agents 5 --obs-radius 0.5 --intr-rew elign_team --epoch 5 --save-models --benchmark  --logdir log/simple_spread
@@ -68,11 +68,11 @@ python map/train_multi_sacd.py --task simple_spread_in_NS_change_landmark_with_e
 python map/evaluate_multi_sacd.py --savedir result --logdir log/simple_spread
 ```
 
-Simple Spread + ELIGN without non-stationarity:    
-![ELIGN_without_Landmark_Non_Stationarity_Reward_Simple_Spread]((./ELIGN_videos/NO_NS.mp4))  
+Simple Spread + Alignment without non-stationarity:    
+![Alignment_without_Landmark_Non_Stationarity_Reward_Simple_Spread]((./Alignment_videos/NO_NS.mp4))  
 
-Simple Spread + ELIGN with reward non-stationarity (varying landmarks):     
-![ELIGN_with_Landmark_Non_Stationarity_Reward_Simple_Spread (1)](./ELIGN_videos/NS.mp4)
+Simple Spread + Alignment with reward non-stationarity (varying landmarks):     
+![Alignment_with_Landmark_Non_Stationarity_Reward_Simple_Spread (1)](./Alignment_videos/NS.mp4)
 
 
 
