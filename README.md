@@ -68,10 +68,10 @@ python map/train_multi_sacd.py --task simple_spread_in_NS_change_landmark_with_e
 python map/evaluate_multi_sacd.py --savedir result --logdir log/simple_spread
 ```
 
-## Simple Spread + Alignment without non-stationarity:
+#### Simple Spread + Alignment without non-stationarity:
 ![Simple Spread + Alignment without non-stationarity](Alignment_videos/NO_NS.gif)
 
-## Simple Spread + Alignment with reward non-stationarity (varying landmarks):
+#### Simple Spread + Alignment with reward non-stationarity (varying landmarks):
 ![Simple Spread + Alignment with reward non-stationarity](Alignment_videos/NS.gif)
 
 
