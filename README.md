@@ -69,11 +69,14 @@ python map/evaluate_multi_sacd.py --savedir result --logdir log/simple_spread
 ```
 
 Simple Spread + Alignment without non-stationarity:    
-![Alignment_without_Landmark_Non_Stationarity_Reward_Simple_Spread]((./Alignment_videos/NO_NS.mp4))  
+<video width="600" controls>
+  <source src="./Alignment_videos/NO_NS.mp4" type="video/mp4">
+</video>
 
 Simple Spread + Alignment with reward non-stationarity (varying landmarks):     
-![Alignment_with_Landmark_Non_Stationarity_Reward_Simple_Spread (1)](./Alignment_videos/NS.mp4)
-
+<video width="600" controls>
+  <source src="./Alignment_videos/NS.mp4" type="video/mp4">
+</video>
 
 
 
