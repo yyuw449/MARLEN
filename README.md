@@ -69,10 +69,10 @@ python map/evaluate_multi_sacd.py --savedir result --logdir log/simple_spread
 ```
 
 Simple Spread + ELIGN without non-stationarity:    
-![ELIGN_without_Landmark_Non_Stationarity_Reward_Simple_Spread](https://github.com/user-attachments/assets/420ea52a-d158-4488-8a6c-e62a8253b6d1)  
+![ELIGN_without_Landmark_Non_Stationarity_Reward_Simple_Spread]((./ELIGN_videos/NO_NS.mp4))  
 
 Simple Spread + ELIGN with reward non-stationarity (varying landmarks):     
-![ELIGN_with_Landmark_Non_Stationarity_Reward_Simple_Spread (1)](https://github.com/user-attachments/assets/eebc20e2-ef76-4784-96f0-219a7103f208)
+![ELIGN_with_Landmark_Non_Stationarity_Reward_Simple_Spread (1)](./ELIGN_videos/NS.mp4)
 
 
 
